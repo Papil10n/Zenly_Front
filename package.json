@@ -1,0 +1,29 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./Scripts/server-scripts/index.js",
+  "scripts": {
+    "start": "node ./Scripts/server-scripts/index.js",
+    "start-server": "node ./Scripts/server-scripts/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Papil10n/Zenly_Plag.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Papil10n/Zenly_Plag/issues"
+  },
+  "homepage": "https://github.com/Papil10n/Zenly_Plag#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.1",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
